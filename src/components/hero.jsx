@@ -1,6 +1,7 @@
 import React from 'react';
-import { MapPin, Mail } from 'lucide-react'; // import icons from Lucide-React
+import { MapPin, Mail, Code, Database, Cpu } from 'lucide-react'; // import icons from Lucide-React
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // import icons from React-Icons
+import SkillCard from './skillcard'; // import SkillCard component
 
 export default function Hero () {
     return (
@@ -46,12 +47,32 @@ export default function Hero () {
                 </div>
 
                 {/* Right Column */}
+                {/* Right Column */}
                 <div className='flex-1 w-full max-w-md aspect-square relative flex flex-col justify-center gap-4'>
-                    <div className='bg-slate-800/50 p-8 rounded-2xl border border-slate-700 text-center'>
-                        <p className='text-slate-500 font-medium'>
-                            Interactive skill cards will go here
-                        </p>
+                    
+                    {/* Card 1: Web Dev */}
+                    <SkillCard 
+                        title="Web Development" 
+                        description="React, Next.js, WordPress" 
+                        icon={<Code size={24} className="text-blue-400" />} 
+                    />
+
+                    {/* Card 2: Data Architecture (Notice the ml-8 class to offset it visually) */}
+                    <div className="ml-8">
+                        <SkillCard 
+                            title="Data Architecture" 
+                            description="Python, SQL, Salesforce" 
+                            icon={<Database size={24} className="text-emerald-400" />} 
+                        />
                     </div>
+
+                    {/* Card 3: AI & Engineering */}
+                    <SkillCard 
+                        title="AI & Engineering" 
+                        description="Machine Learning, Systems Design" 
+                        icon={<Cpu size={24} className="text-purple-400" />} 
+                    />
+
                 </div>
 
             </div>
