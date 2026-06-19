@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero/>
-      {/* Experience Section */}
+      {/* Projects Section */}
+      <Projects/>
 
       {/* Visitor Board Section */}
       
