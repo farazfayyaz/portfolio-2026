@@ -4,7 +4,7 @@ import Image from 'next/image'; // import optimized Image component
 // component named 'Navbar'
 export default function Navbar () {
     return (
-        <nav className='fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blue-md border-b border-slate-800'>
+        <nav className='fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800'>
             <div className='max-w-6xl mx-auto px-6 py-4 flex justify-between items-center'>
 
                 {/* Brand Logo - 8-bit Faraz */}
@@ -14,7 +14,7 @@ export default function Navbar () {
                         alt='Faraz Fayyaz Logo'
                         width={180}
                         height={40}
-                        immediately
+                        priority
                         className='object-contain'
                     />
                 </a>
