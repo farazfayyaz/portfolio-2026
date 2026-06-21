@@ -11,7 +11,7 @@ export default function Navbar () {
                 {/* Brand Logo - 8-bit Faraz */}
                 <a href='/' className='flex items-center gap-3 transition-opacity hover:opacity-80' >
                     <Image
-                        src='/Faraz Logo White Face - clear.png'
+                        src='/logos/Faraz Logo White Face - clear.png'
                         alt='Faraz Fayyaz Logo'
                         width={180}
                         height={40}
