@@ -11,17 +11,15 @@ export default function AFKCar() {
     const resetTimer = () => {
       setIsIdle(false);
       clearTimeout(timeoutId);
-      // Set to exactly 15 seconds (15000 ms)
+      // Waits 15 seconds of inactivity before triggering
       timeoutId = setTimeout(() => setIsIdle(true), 15000);
     };
 
-    // Listeners for activity
     window.addEventListener('mousemove', resetTimer);
     window.addEventListener('keydown', resetTimer);
     window.addEventListener('scroll', resetTimer);
     window.addEventListener('click', resetTimer);
 
-    // Start timer on mount
     resetTimer();
 
     return () => {
@@ -35,41 +33,56 @@ export default function AFKCar() {
 
   return (
     <>
-      {/* 
-        We use a <style> block here to handle the custom driving animation 
-        without needing to edit your Tailwind config file!
-      */}
       <style>{`
-        @keyframes drive {
-          0% { transform: translateX(-100vw); }
-          100% { transform: translateX(100vw); }
+        /* Animation 1: Just handles moving left and right */
+        @keyframes patrol-move {
+          0% { transform: translateX(-300px); }
+          49.9% { transform: translateX(100vw); }
+          50% { transform: translateX(100vw); }
+          99.9% { transform: translateX(-300px); }
+          100% { transform: translateX(-300px); }
         }
-        .animate-drive {
-          /* Changed from 8s to 20s to slow the car down */
-          animation: drive 20s linear forwards; 
+        
+        /* Animation 2: Just handles flipping the car emoji */
+        @keyframes patrol-flip {
+          0% { transform: scaleX(-1); }
+          49.9% { transform: scaleX(-1); }
+          50% { transform: scaleX(1); }
+          99.9% { transform: scaleX(1); }
+          100% { transform: scaleX(-1); }
+        }
+
+        .animate-patrol-move {
+          animation: patrol-move 30s linear infinite; 
+        }
+        .animate-patrol-flip {
+          animation: patrol-flip 30s linear infinite;
         }
       `}</style>
 
-      {/* The Dark Overlay that dims the screen slightly */}
+      {/* The Dark Overlay */}
       <div 
         className={`fixed inset-0 bg-black/40 pointer-events-none z-90 transition-opacity duration-1000 ${isIdle ? 'opacity-100' : 'opacity-0'}`} 
       />
 
-      {/* The Car & Speech Bubble Container */}
+      {/* The Container - Only applies the MOVEMENT animation */}
       <div 
-        className={`fixed bottom-10 left-0 z-100 pointer-events-none transition-opacity duration-500 ${isIdle ? 'opacity-100 animate-drive' : 'opacity-0 hidden'}`}
+        className={`fixed bottom-10 left-0 z-100 pointer-events-none transition-opacity duration-500 ${isIdle ? 'opacity-100 animate-patrol-move' : 'opacity-0 hidden'}`}
         style={{ width: 'max-content' }}
       >
-        <div className="relative">
-          {/* Speech Bubble */}
-          <div className="absolute -top-12 left-8 bg-white text-slate-900 text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap shadow-lg">
+        <div className="relative flex flex-col items-center">
+          
+          {/* Speech Bubble - Stays perfectly still and readable */}
+          <div className="absolute -top-8 bg-white text-slate-900 text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap shadow-lg z-10">
             Still reading? You should probably email Faraz.
-            {/* The little arrow on the bubble */}
-            <div className="absolute -bottom-1.5 left-4 w-3 h-3 bg-white rotate-45"></div>
+            <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-white rotate-45"></div>
           </div>
           
-          {/* The Pixel Car Emoji */}
-          <div className="text-6xl scale-x-[-1]">🏎️</div>
+          {/* The Pixel Car - Only applies the FLIP animation */}
+          <div className={`text-6xl relative z-20 inline-block ${isIdle ? 'animate-patrol-flip' : ''}`}>
+            🏎️
+          </div>
+          
         </div>
       </div>
     </>

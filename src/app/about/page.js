@@ -35,7 +35,7 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl font-bold text-white">The PepsiCo Scholarship</h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  During my time at Ivy Tech Community College, I was honored to be featured alongside a fellow student as a recipient of the PepsiCo scholarship. This recognition reinforced my drive to use technology to create opportunities not just for myself, but for the community around me.
+                  During my time at Ivy Tech Community College, I was honored to be a recipient of the PepsiCo scholarship. This recognition reinforced my drive to use technology to create opportunities not just for myself, but for the community around me.
                 </p>
               </div>
               <div className="w-full md:w-125 aspect-video bg-slate-900 rounded-xl border border-slate-800 overflow-hidden relative shadow-lg">

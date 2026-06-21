@@ -24,21 +24,21 @@ export default function AboutMe() {
         item: "Matcha Latte",
         icon: "☕",
         color: "text-green-400",
-        imgSrc: "/images/matcha.gif" // Placeholder matcha image
+        imgSrc: "/images/matcha.gif" 
       },
       {
         action: "Listening to",
         item: "Apparently by J. Cole",
         icon: "🎧",
         color: "text-rose-400",
-        imgSrc: "/images/snoopy-music.jpg" // Placeholder music/Spotify image
+        imgSrc: "/images/snoopy-music.jpg" 
       },
       {
         action: "Coding",
         item: "A New Project",
         icon: "💻",
         color: "text-blue-400",
-        imgSrc: "/images/working-room.gif" // Placeholder coding image
+        imgSrc: "/images/working-room.gif" 
       }
     ];
 
@@ -118,28 +118,34 @@ export default function AboutMe() {
         </div>
 
         {/* Box 4: Off the Clock */}
-        <div className="md:col-span-2 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-orange-500/50 transition-colors shadow-xl backdrop-blur-sm">
+        <div className="md:col-span-2 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-orange-500/50 transition-colors shadow-xl backdrop-blur-sm flex flex-col h-full">
           <div className="flex items-center justify-center md:justify-start gap-3 text-orange-400 mb-6">
             <Activity size={24} />
             <h3 className="font-bold text-white text-xl">Off The Clock</h3>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-indigo-500/30 transition-all">
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 flex-1">
+            
+            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center justify-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-indigo-500/30 transition-all h-full">
               <Gamepad2 size={32} className="text-indigo-400" />
-              <span className="text-sm font-medium text-slate-300">PS5 Gaming</span>
+              <span className="text-sm font-medium text-slate-300">Gaming</span>
             </div>
-            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-rose-500/30 transition-all">
+            
+            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center justify-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-rose-500/30 transition-all h-full">
               <Dumbbell size={32} className="text-rose-400" />
               <span className="text-sm font-medium text-slate-300">Fitness</span>
             </div>
-            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-cyan-500/30 transition-all">
+            
+            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center justify-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-cyan-500/30 transition-all h-full">
               <Music size={32} className="text-cyan-400" />
               <span className="text-sm font-medium text-slate-300">Music</span>
             </div>
-            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-yellow-500/30 transition-all">
+            
+            <div className="bg-slate-950/50 p-6 rounded-2xl flex flex-col items-center justify-center text-center gap-4 border border-slate-800 hover:scale-[1.02] hover:border-yellow-500/30 transition-all h-full">
               <Plane size={32} className="text-yellow-400" />
               <span className="text-sm font-medium text-slate-300">Travel</span>
             </div>
+
           </div>
         </div>
 

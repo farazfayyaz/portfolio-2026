@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
+import ScrollSpidey from "../components/scrollspidey";
 import Projects from "../components/projects";
 import Guestbook from "../components/guestbook";
 
@@ -9,6 +10,9 @@ export default function Home() {
     <main className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-blue-500/30">
       {/* Navbar section */}
       <Navbar/>
+
+      {/* City Skyline Section */}
+      <ScrollSpidey/>
 
       {/* Hero Section */}
       <Hero/>
