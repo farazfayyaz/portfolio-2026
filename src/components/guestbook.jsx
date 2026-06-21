@@ -103,7 +103,7 @@ export default function Guestbook() {
         </div>
 
         {/* The Corkboard */}
-        <div className="lg:col-span-2 min-h-[500px] bg-[url('https://www.transparenttextures.com/patterns/cork-board.png')] bg-slate-800/40 border border-slate-800 rounded-3xl p-8 relative overflow-hidden flex flex-wrap content-start gap-4 shadow-inner">
+        <div className="lg:col-span-2 min-h-125 bg-[url('https://www.transparenttextures.com/patterns/cork-board.png')] bg-slate-800/40 border border-slate-800 rounded-3xl p-8 relative overflow-hidden flex flex-wrap content-start gap-4 shadow-inner">
           {notes.map(note => (
             <div 
               key={note.id} 

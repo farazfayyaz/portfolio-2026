@@ -1,7 +1,8 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import Projects from "@/components/projects";
-import Guestbook from "@/components/guestbook";
+import Projects from "../components/projects";
+import Guestbook from "../components/guestbook";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
 
       {/* Visitor Board Section */}
       <Guestbook/>
+
+      {/* Footer Section */}
+      <Footer/>
       
     </main>
   );
