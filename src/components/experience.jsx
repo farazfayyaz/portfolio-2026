@@ -49,7 +49,7 @@ export default function Experience() {
           <div key={index} className="relative pl-8 group">
             
             {/* The Timeline Indicator Dot */}
-            <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-700 group-hover:border-blue-400 transition-colors duration-300 flex items-center justify-center">
+            <div className="absolute -left-2.25 top-1.5 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-700 group-hover:border-blue-400 transition-colors duration-300 flex items-center justify-center">
               <div className="w-1.5 h-1.5 rounded-full bg-slate-700 group-hover:bg-blue-400 transition-colors duration-300" />
             </div>
 

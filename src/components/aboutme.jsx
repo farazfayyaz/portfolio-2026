@@ -20,7 +20,7 @@ export default function AboutMe() {
         
         {/* Box 1: Terminal Bio (Spans 2 columns) */}
         <div className="md:col-span-2 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-blue-500/50 transition-colors shadow-xl group flex flex-col backdrop-blur-sm relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-emerald-500 opacity-50 group-hover:opacity-100 transition-opacity"></div>
+          <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-blue-500 to-emerald-500 opacity-50 group-hover:opacity-100 transition-opacity"></div>
           <div className="flex items-center gap-2 mb-6 border-b border-slate-800 pb-4">
             <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
             <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
@@ -37,7 +37,7 @@ export default function AboutMe() {
 
         {/* Box 2: Avatar / Identity (Spans 1 column, height matches Terminal automatically) */}
         <div className="md:col-span-1 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-purple-500/50 transition-colors shadow-xl flex flex-col items-center justify-center text-center relative overflow-hidden backdrop-blur-sm">
-          <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+          <div className="absolute inset-0 bg-linear-to-b from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
           
           {/* Increased avatar size to w-40 h-40 */}
           <div className="w-40 h-40 rounded-full border-2 border-slate-700 bg-slate-800 flex items-center justify-center mb-6 relative z-10 group-hover:border-purple-500/50 transition-colors">
