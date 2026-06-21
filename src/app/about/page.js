@@ -1,6 +1,7 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Experience from "../../components/Experience"; // Reusing our timeline!
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
+import Experience from "../../components/experience"; 
+import AboutMe from "../../components/aboutme";
 
 export default function About() {
   return (
@@ -8,29 +9,15 @@ export default function About() {
       
       <Navbar />
 
-      {/* Main Content Wrapper - Added top padding to clear the fixed navbar */}
-      <div className="pt-32 pb-20 px-6 max-w-4xl mx-auto space-y-16">
+      <div className="pt-32 pb-20 px-6 max-w-6xl mx-auto space-y-24">
         
-        {/* Section 1: The Bio */}
-        <section className="space-y-6">
-          <h1 className="text-5xl font-extrabold text-white tracking-tight">
-            Behind the Code
-          </h1>
-          <div className="text-lg text-slate-400 leading-relaxed space-y-4">
-            <p>
-              My tech journey started with a strong foundation in computer science, and it is actively evolving as I prepare to relocate to Chicago and dive into my M.S. at DePaul University. I thrive at the intersection of web development, data architecture, and creating systems that actually make an impact.
-            </p>
-            <p>
-              When I am not writing React components or optimizing SQL queries, I am usually planning my next day-in-the-life vlog, hunting for the perfect oversized graphic hoodie, or grabbing a matcha latte before jumping into a Marvel Rivals match on the PS5.
-            </p>
-          </div>
-        </section>
+        {/* Section 1: The Bento Box Grid */}
+        <AboutMe />
 
-        {/* Section 2: The Timeline */}
-        <section>
-          {/* We drop the component right here and it perfectly renders! */}
+        {/* Section 2: The Professional Timeline */}
+        <div className="max-w-4xl mx-auto">
           <Experience /> 
-        </section>
+        </div>
 
       </div>
 

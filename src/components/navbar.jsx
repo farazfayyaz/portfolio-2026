@@ -22,7 +22,7 @@ export default function Navbar () {
 
                 {/* Nav links - desktop navigation */}
                 <div className='display:none md:flex gap-6 text-sm text-slate-400 '>
-                    <a href='/About' className='hover:text-white transition-colors'>About</a>
+                    <a href='/about' className='hover:text-white transition-colors'>About</a>
                     <a href='/Projects' className='hover:text-white transition-colors'>Projects</a>
                     <a href='/GuestBoard' className='hover:text-white transition-colors'>Guest Board</a>
                 </div>
