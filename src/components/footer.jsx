@@ -10,7 +10,7 @@ export default function Footer() {
 
         {/* Left Side: Brand & Copyright */}
         <div className="flex flex-col items-center md:items-start gap-2">
-          <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
+          <span className="text-xl font-bold bg-linear-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
             Faraz Fayyaz
           </span>
           <p className="text-slate-500 text-sm">

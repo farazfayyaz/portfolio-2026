@@ -3,28 +3,28 @@ import { Calendar, Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: "Strategic Information Intelligence",
+    role: "Manager of Software Solutions",
     company: "United Way of Central Indiana",
     period: "Current",
     description: "Collaborating with CRM, Finance, and Impact teams. Focusing on data analysis, Python, and Salesforce CRM integration to support strategic initiatives.",
   },
   {
-    role: "Web Development Intern",
+    role: "Web Design & Web Development Intern",
     company: "Tab Recreation",
-    period: "2026",
+    period: "March 2026 - June 2026",
     description: "Designed, developed, and deployed a live, modernized website for the organization to improve digital presence and user experience.",
   },
   {
-    role: "Freelance Web Developer",
-    company: "Upwork",
-    period: "Ongoing",
-    description: "Designing and developing custom web applications and sites for clients, focusing on responsive design and modern UI/UX principles.",
+    role: "WordPress Developer",
+    company: "TechIndiana",
+    period: "January 2026 - June 2026",
+    description: "Redesigned the platform and built new components to resolve existing user-facing issues, significantly improving usability and brand alignment.",
   },
   {
-    role: "Office Manager",
-    company: "Near North Development Corporation",
-    period: "Previous",
-    description: "Managed daily office operations, coordinated administrative workflows, and supported overall team productivity.",
+    role: "Freelance Software Developer",
+    company: "Self-Employed",
+    period: "Ongoing",
+    description: "Designing and developing custom web applications and sites for clients, focusing on responsive design and modern UI/UX principles.",
   }
 ];
 
