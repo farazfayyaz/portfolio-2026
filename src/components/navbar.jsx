@@ -20,7 +20,7 @@ export default function Navbar () {
                 </a>
 
                 {/* Nav links - desktop navigation */}
-                <div className='display:none md-flex gap-6 text-sm text-slate-400 '>
+                <div className='display:none md:flex gap-6 text-sm text-slate-400 '>
                     <a href='#About' className='hover:text-white transition-colors'>About</a>
                     <a href='#Projects' className='hover:text-white transition-colors'>Experience</a>
                     <a href='#VisitorBoard' className='hover:text-white transition-colors'>Visitor Board</a>
