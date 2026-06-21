@@ -12,23 +12,23 @@ const projects = [
     liveUrl: "https://www.tabrecreation.org"
   },
   {
-    title: "TechIndiana Platform Redesign",
+    title: "TechIndiana Website",
     description: "Redesigned the platform and built new components to resolve existing user-facing issues, significantly improving usability and brand alignment.",
-    techStack: ["Component Design", "Web Development", "UI/UX"],
+    techStack: ["WordPress", "HTML/CSS", "JavaScript", "Custom Components", "Figma"],
     githubUrl: null,
     liveUrl: "https://www.techindiana.org"
   },
   {
     title: "3D Car Racing Simulation",
     description: "Collaborated with a team to build a racing game. Engineered the map architecture, core driving mechanics, and AI logic for non-playable vehicles.",
-    techStack: ["Game Development", "AI Logic", "Team Collaboration"], 
+    techStack: ["C++", "Unity", "Object-Oriented Design"], 
     githubUrl: "https://github.com/farazfayyaz/raceGame3d",
     liveUrl: null
   },
   {
     title: "War: Terminal Card Game",
     description: "Developed a fully playable terminal-based 'War' card game, applying advanced data structures and algorithmic concepts.",
-    techStack: ["Data Structures", "Algorithms", "Terminal/CLI"],
+    techStack: ["C++", "Data Structures", "Algorithms", "CLI Architecture"],
     githubUrl: "https://github.com/farazfayyaz/CSCI2-Final-Project",
     liveUrl: null
   }

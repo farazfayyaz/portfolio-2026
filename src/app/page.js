@@ -10,6 +10,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <Hero/>
+      
       {/* Projects Section */}
       <Projects/>
 
