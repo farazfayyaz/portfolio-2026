@@ -27,7 +27,7 @@ export default function ScrollSpidey() {
   const dropDistance = Math.min(baseDropLength + (scrollPos * 0.25), maxDrop);
 
   return (
-    <div className="fixed top-0 right-8 md:right-24 z-[100] pointer-events-none flex flex-col items-center">
+    <div className="fixed top-0 right-8 md:right-24 z-100 pointer-events-none flex flex-col items-center">
       
       {/* The Web Line */}
       <div 
