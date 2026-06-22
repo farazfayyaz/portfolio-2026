@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { MessageSquare, Loader2 } from 'lucide-react'; 
 // Import the Server Actions we built earlier
-import { getGuestbookEntries, addGuestbookEntry } from '../actions'; 
+import { getGuestbookEntries, addGuestbookEntry } from '../app/actions'; 
 
 export default function Guestbook() {
   // 1. Core State (Memory) for the Board
