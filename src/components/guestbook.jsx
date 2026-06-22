@@ -107,7 +107,7 @@ export default function Guestbook() {
           {notes.map(note => (
             <div 
               key={note.id} 
-              className={`${note.color} ${note.rotation} w-44 h-44 p-4 rounded-br-2xl shadow-[2px_4px_10px_rgba(0,0,0,0.3)] flex flex-col justify-between transition-transform hover:scale-105 hover:z-10 cursor-pointer border-t border-l border-white/20`}
+              className={`${note.color} ${note.rotation} w-44 h-44 p-4 shadow-[2px_4px_10px_rgba(0,0,0,0.3)] flex flex-col justify-between transition-transform hover:scale-105 hover:z-10 cursor-pointer border-t border-l border-white/20`}
             >
               <div className="absolute top-2 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-red-500 shadow-sm border border-red-700/50 z-10">
                 <div className="w-1 h-1 bg-white/50 rounded-full ml-0.5 mt-0.5"></div>
