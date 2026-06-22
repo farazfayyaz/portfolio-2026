@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { MapPin, Mail, Code, Database, Cpu } from 'lucide-react'; // import icons from Lucide-React
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // import icons from React-Icons
 import SkillCard from './skillcard'; // import SkillCard component
@@ -30,18 +31,36 @@ export default function Hero () {
 
                     {/* Call to Action Buttons */}
                     <div className='flex gap-4 pt-4'>
-                        <button className='px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-all flex items-center gap-2'>
+                        {/* 1. Updated Contact Button to use Next.js Link */}
+                        <Link 
+                            href="/contact" 
+                            className='px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-all flex items-center gap-2 w-fit'
+                        >
                             <Mail size={18} /> Contact Me
-                        </button>
+                        </Link>
 
                         <div className='flex gap-2'>
-                            <button className='p-3 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all'>
+                            {/* 2. Updated LinkedIn Button to external anchor tag */}
+                            <a 
+                                href="https://www.linkedin.com/in/faraz-fayyaz/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='p-3 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all flex items-center justify-center'
+                                aria-label="LinkedIn"
+                            >
                                 <FaLinkedin size={20} />
-                            </button>
+                            </a>
 
-                            <button className='p-3 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all'>
+                            {/* 3. Updated GitHub Button to external anchor tag */}
+                            <a 
+                                href="https://github.com/farazfayyaz" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className='p-3 bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all flex items-center justify-center'
+                                aria-label="GitHub"
+                            >
                                 <FaGithub size={20} />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

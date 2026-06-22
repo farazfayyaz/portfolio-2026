@@ -5,6 +5,7 @@ import Experience from "../../components/experience";
 import AboutMe from "../../components/aboutme";
 import PlayerStats from "../../components/playerstats";
 import AFKCar from "../../components/afkcar";
+import ScrollSpidey from "../../components/scrollspidey";
 import { Award, PlayCircle } from 'lucide-react'
 
 export default function About() {
@@ -13,6 +14,9 @@ export default function About() {
       
       {/* The invisible Easter Egg tracker */}
       <AFKCar />
+
+      {/* Scrolling Spidey */}
+      <ScrollSpidey/>
 
       <Navbar />
 

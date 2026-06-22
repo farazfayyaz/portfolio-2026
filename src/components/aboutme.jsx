@@ -69,18 +69,36 @@ export default function AboutMe() {
           </div>
           <div className="font-mono text-sm leading-relaxed text-slate-300 flex-1">
             <p className="mb-4"><span className="text-emerald-400">$ cat philosophy.md</span></p>
-            <p className="mb-4">I believe the best software bridges the gap between complex data architecture and intuitive human experiences.</p>
-            <p className="mb-4">Currently building my foundation before transferring to DePaul University in Chicago for my M.S. in Computer Science. Whether I'm managing software solutions for the community or optimizing data analytics workflows, my goal is always to create tools that empower people.</p>
+            <p className="mb-4">
+              I believe the best software bridges the gap between complex data architecture and intuitive human experiences.
+              </p>
+            <p className="mb-4">
+              Currently building my foundation before transferring to DePaul University in Chicago for my M.S. 
+              in Computer Science. Whether I'm managing software solutions for the community or optimizing data 
+              analytics workflows, my goal is always to create tools that empower people.
+              </p>
             <p className="animate-pulse text-blue-400">_</p>
           </div>
         </div>
 
         {/* Box 2: Avatar */}
-        <div className="md:col-span-1 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-purple-500/50 transition-colors shadow-xl flex flex-col items-center justify-center text-center relative overflow-hidden backdrop-blur-sm">
-          <div className="w-40 h-40 rounded-full border-2 border-slate-700 bg-slate-800 flex items-center justify-center mb-6 relative z-10 group-hover:border-purple-500/50 transition-colors">
-            <User size={64} className="text-slate-400" />
+        <div className="order-first md:order-0 md:col-span-1 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-purple-500/50 transition-colors shadow-xl flex flex-col items-center justify-center text-center relative overflow-hidden backdrop-blur-sm">
+          
+          {/* Notice the addition of 'overflow-hidden' here. 
+            This forces your square photo to clip perfectly into the circle! 
+          */}
+          <div className="w-40 h-40 rounded-full border-2 border-slate-700 bg-slate-800 flex items-center justify-center mb-6 relative z-10 group-hover:border-purple-500/50 transition-colors overflow-hidden shadow-inner">
+            
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src="/images/headshot.jpg" 
+              alt="Faraz Fayyaz" 
+              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+            />
+
           </div>
-          <h3 className="font-inter font-bold text-white text-2xl z-10 mb-1">Faraz Fayyaz</h3>
+          
+          <h3 className="font-bold text-white text-2xl z-10 mb-1">Faraz Fayyaz</h3>
           <p className="text-sm text-purple-400 font-medium z-10">Software Engineer</p>
         </div>
 

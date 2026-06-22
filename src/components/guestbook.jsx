@@ -54,7 +54,7 @@ export default function Guestbook() {
       <div className="grid lg:grid-cols-3 gap-12 items-start">
         
         {/* Form Container */}
-        <div className="bg-slate-900 border border-slate-800 p-6 rounded-3xl sticky top-24 shadow-xl">
+        <div className="bg-slate-900 border border-slate-800 p-6 rounded-3xl shadow-xl">
           <h3 className="font-inter font-bold text-xl text-slate-200 mb-6">Write a Note</h3>
           <form onSubmit={handleAddNote} className="space-y-4">
             <div>
