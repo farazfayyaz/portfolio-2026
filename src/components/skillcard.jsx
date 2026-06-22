@@ -15,7 +15,7 @@ export default function SkillCard({ title, description, icon }) {
           
           {/* render the text props here */}
           <div>
-            <h3 className="font-semibold text-slate-200">{title}</h3>
+            <h3 className="font-inter font-semibold text-slate-200">{title}</h3>
             <p className="text-xs text-slate-400">{description}</p>
           </div>
 

@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --font-press-start: var(--font-ps2), cursive;
+  --font-inter: var(--font-inter-var), sans-serif;
+}

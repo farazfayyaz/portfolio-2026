@@ -16,7 +16,7 @@ export default function Hero () {
                     </div>
 
                     {/* Main Headline */}
-                    <h1 className='text-5xl md:text-7xl font-extrabold tracking-tight text-white leading-tight'>
+                    <h1 className='text-3xl md:text-5xl font-press-start text-white leading-relaxed'>
                         Hi, I'm Faraz! <br/>
                         <span className='text-slate-500'>
                             [secondary focus]

@@ -35,7 +35,7 @@ export default function PlayerStats() {
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-bold rounded-full border border-blue-500/20 mb-3">
               <Sword size={14} /> Character Profile
             </div>
-            <h2 className="text-3xl font-extrabold text-white tracking-widest uppercase">Software Engineer</h2>
+            <h2 className="text-xl font-press-start text-white leading-relaxed">Software Engineer</h2>
           </div>
           <div className="text-right">
             <div className="text-xs font-mono text-slate-500 uppercase tracking-widest">Current Level</div>
@@ -50,7 +50,7 @@ export default function PlayerStats() {
           <div className="space-y-3">
             <div className="flex items-center gap-2 text-blue-400 mb-4">
               <Brain size={20} />
-              <h3 className="font-bold text-lg uppercase tracking-wider">Intelligence</h3>
+              <h3 className="font-inter font-bold text-lg uppercase tracking-wider">Intelligence</h3>
             </div>
             <div className="space-y-2">
               {intelligence.map(skill => (
@@ -64,7 +64,7 @@ export default function PlayerStats() {
           <div className="space-y-3">
             <div className="flex items-center gap-2 text-emerald-400 mb-4">
               <Zap size={20} />
-              <h3 className="font-bold text-lg uppercase tracking-wider">Agility</h3>
+              <h3 className="font-inter font-bold text-lg uppercase tracking-wider">Agility</h3>
             </div>
             <div className="space-y-2">
               {agility.map(skill => (
@@ -78,7 +78,7 @@ export default function PlayerStats() {
           <div className="space-y-3">
             <div className="flex items-center gap-2 text-purple-400 mb-4">
               <Sparkles size={20} />
-              <h3 className="font-bold text-lg uppercase tracking-wider">Charisma</h3>
+              <h3 className="font-inter font-bold text-lg uppercase tracking-wider">Charisma</h3>
             </div>
             <div className="space-y-2">
               {charisma.map(skill => (

@@ -50,7 +50,7 @@ export default function AboutMe() {
     <section className="w-full animate-in fade-in duration-500">
       
       <div className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">More Than Just Code.</h1>
+        <h1 className="text-lg md:text-xl font-press-start text-white mb-4 leading-relaxed">More Than Just Code.</h1>
         <p className="text-lg text-slate-400 max-w-2xl">
           A closer look at how I work, what drives me, and what I do when the laptop closes.
         </p>
@@ -80,7 +80,7 @@ export default function AboutMe() {
           <div className="w-40 h-40 rounded-full border-2 border-slate-700 bg-slate-800 flex items-center justify-center mb-6 relative z-10 group-hover:border-purple-500/50 transition-colors">
             <User size={64} className="text-slate-400" />
           </div>
-          <h3 className="font-bold text-white text-2xl z-10 mb-1">Faraz Fayyaz</h3>
+          <h3 className="font-inter font-bold text-white text-2xl z-10 mb-1">Faraz Fayyaz</h3>
           <p className="text-sm text-purple-400 font-medium z-10">Software Engineer</p>
         </div>
 
@@ -92,7 +92,7 @@ export default function AboutMe() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
             </div>
-            <h3 className="font-bold text-white text-lg flex items-center gap-2">Currently <Radio size={16} className="text-emerald-400"/></h3>
+            <h3 className="font-inter font-bold text-white text-lg flex items-center gap-2">Currently <Radio size={16} className="text-emerald-400"/></h3>
           </div>
 
           {/* Render content only after the random selection is made to prevent hydration mismatch */}
@@ -121,7 +121,7 @@ export default function AboutMe() {
         <div className="md:col-span-2 bg-slate-900/80 border border-slate-800 rounded-3xl p-8 hover:border-orange-500/50 transition-colors shadow-xl backdrop-blur-sm flex flex-col h-full">
           <div className="flex items-center justify-center md:justify-start gap-3 text-orange-400 mb-6">
             <Activity size={24} />
-            <h3 className="font-bold text-white text-xl">Off The Clock</h3>
+            <h3 className="font-inter font-bold text-white text-xl">Off The Clock</h3>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 flex-1">

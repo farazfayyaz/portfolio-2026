@@ -40,7 +40,7 @@ export default function Projects() {
       
       {/* Section Header */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-white tracking-tight flex items-center gap-3">
+        <h2 className="text-xl font-press-start text-white leading-relaxed flex items-center gap-3">
           <Folder className="text-blue-400" size={28} /> Featured Projects
         </h2>
         <p className="text-slate-400 mt-2 text-sm max-w-2xl">
@@ -59,7 +59,7 @@ export default function Projects() {
             {/* Top Half: Text Content */}
             <div>
               <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-bold text-slate-200 group-hover:text-blue-400 transition-colors">
+                <h3 className="font-inter text-xl font-bold text-slate-200 group-hover:text-blue-400 transition-colors">
                   {project.title}
                 </h3>
                 <div className="flex gap-3 text-slate-400">

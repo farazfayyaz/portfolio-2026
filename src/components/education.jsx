@@ -18,7 +18,7 @@ export default function Education() {
   return (
     <section className="w-full">
       <div className="mb-10">
-        <h2 className="text-3xl font-bold text-white tracking-tight flex items-center gap-3">
+        <h2 className="text-xl font-press-start text-white leading-relaxed flex items-center gap-3">
           <GraduationCap className="text-emerald-400" size={28} /> Academic Foundation
         </h2>
         <p className="text-slate-400 mt-2 text-sm">My formal training in computer science and advanced engineering.</p>
@@ -36,7 +36,7 @@ export default function Education() {
           
           {/* Top Content: School, Degree, Location, Description */}
           <div className="relative z-10 mb-8">
-            <h3 className="font-bold text-2xl text-slate-100 mb-1">DePaul University</h3>
+            <h3 className="font-inter font-bold text-2xl text-slate-100 mb-1">DePaul University</h3>
             <p className="text-emerald-400 font-medium mb-3">M.S. & B.S. in Computer Science</p>
             <div className="flex items-center gap-2 text-slate-400 text-sm mb-6">
               <span className="flex items-center gap-1"><MapPin size={14}/> Chicago, IL</span>
@@ -62,7 +62,7 @@ export default function Education() {
           
           {/* Top Content: School, Degree, Location, Description */}
           <div className="relative z-10 mb-8">
-            <h3 className="font-bold text-2xl text-slate-100 mb-1">Ivy Tech Community College</h3>
+            <h3 className="font-inter font-bold text-2xl text-slate-100 mb-1">Ivy Tech Community College</h3>
             <p className="text-blue-400 font-medium mb-3">A.S. in Computer Science</p>
             <div className="flex items-center gap-2 text-slate-400 text-sm mb-6">
               <span className="flex items-center gap-1"><MapPin size={14}/> Indianapolis, IN</span>

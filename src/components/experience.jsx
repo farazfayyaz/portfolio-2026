@@ -34,7 +34,7 @@ export default function Experience() {
       
       {/* Section Header */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-white tracking-tight flex items-center gap-3">
+        <h2 className="text-xl font-press-start text-white leading-relaxed flex items-center gap-3">
           <Briefcase className="text-blue-400" size={28} /> Professional Journey
         </h2>
         <p className="text-slate-400 mt-2 text-sm">
@@ -57,7 +57,7 @@ export default function Experience() {
             <div className="bg-slate-900/40 p-6 rounded-2xl border border-slate-800/60 hover:border-slate-700 transition-all duration-300">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
                 <div>
-                  <h3 className="text-lg font-bold text-slate-100 group-hover:text-blue-400 transition-colors">{item.role}</h3>
+                  <h3 className="font-inter text-lg font-bold text-slate-100 group-hover:text-blue-400 transition-colors">{item.role}</h3>
                   <p className="text-sm text-slate-400 font-medium">{item.company}</p>
                 </div>
                 <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 bg-slate-950 px-3 py-1 rounded-full border border-slate-800 h-fit w-fit">

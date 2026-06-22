@@ -43,7 +43,7 @@ export default function Guestbook() {
       
       {/* Streamlined Header */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-3">
+        <h2 className="text-xl font-press-start text-white mb-4 leading-relaxed flex items-center gap-3">
           <MessageSquare className="text-yellow-400" /> The Guestboard
         </h2>
         <p className="text-slate-400 max-w-xl">
@@ -55,7 +55,7 @@ export default function Guestbook() {
         
         {/* Form Container */}
         <div className="bg-slate-900 border border-slate-800 p-6 rounded-3xl sticky top-24 shadow-xl">
-          <h3 className="font-bold text-xl text-slate-200 mb-6">Write a Note</h3>
+          <h3 className="font-inter font-bold text-xl text-slate-200 mb-6">Write a Note</h3>
           <form onSubmit={handleAddNote} className="space-y-4">
             <div>
               <label className="block text-xs font-medium text-slate-400 mb-1">Your Name</label>
