@@ -20,13 +20,15 @@ export default function Hero () {
                     <h1 className='text-3xl md:text-5xl font-press-start text-white leading-relaxed'>
                         Hi, I'm Faraz! <br/>
                         <span className='text-slate-500'>
-                            [secondary focus]
+                            Your Next Software Engineer.
                         </span>
                     </h1>
 
                     {/* Elevator Pitch */}
                     <p className='text-lg text-slate-400 max-w-xl leading-relaxed'>
-                        [Brief intro paragraph goes here.]
+                        I build web applications and data systems that actually get used.
+                        I'm looking for opportunities where I can develop meaningful products, 
+                        learn from other engineers, and grow.
                     </p>
 
                     {/* Call to Action Buttons */}
