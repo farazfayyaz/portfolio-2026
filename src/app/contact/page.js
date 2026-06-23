@@ -62,7 +62,10 @@ export default function Contact() {
               Let's Connect.
             </h1>
             <p className="text-slate-400 text-lg leading-relaxed relative z-10">
-              Currently managing software solutions in Indy and gearing up for computer science at DePaul University in Fall 2026. Whether you have a question, a project idea, or just want to say hi, my inbox is always open.
+              Whether you're a hiring manager looking for a driven intern, a 
+              developer who wants to collaborate, or an organization that needs 
+              a website built right — I want to hear from you. Currently based 
+              in Chicago attending DePaul University.
             </p>
           </div>
           
