@@ -29,8 +29,8 @@ export default function Navbar () {
                 {/* FIX: Changed 'display:none' to 'hidden' so it correctly hides on phones */}
                 <div className='hidden md:flex gap-6 text-sm text-slate-400 items-center'>
                     <a href='/about' className='hover:text-white transition-colors'>About</a>
-                    <a href='/Projects' className='hover:text-white transition-colors'>Projects</a>
-                    <a href='/GuestBoard' className='hover:text-white transition-colors'>Guest Board</a>
+                    <a href='#Projects' className='hover:text-white transition-colors'>Projects</a>
+                    <a href='#GuestBoard' className='hover:text-white transition-colors'>Guest Board</a>
                     
                     {/* Desktop call to action (Moved inside the desktop flex container) */}
                     <button className='px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-medium transition-all ml-4'>
