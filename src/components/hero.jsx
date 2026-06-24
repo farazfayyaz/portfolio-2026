@@ -17,18 +17,24 @@ export default function Hero () {
                     </div>
 
                     {/* Main Headline */}
-                    <h1 className='text-3xl md:text-5xl font-press-start text-white leading-relaxed'>
-                        Hi, I'm Faraz! <br/>
-                        <span className='text-slate-500'>
-                            Your Next Software Engineer.
-                        </span>
+                    <h1 className='text-2xl md:text-4xl font-press-start text-white leading-tight'>
+                        Hi,I'm Faraz!
                     </h1>
 
+                    {/* Typing SVG Subtitle */}
+                    <a href="https://git.io/typing-svg" className="block">
+                        <img
+                            src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=28&duration=2000&pause=1500&color=94A3B8&width=750&height=70&lines=Computer+Science+Student;Software+Engineer;Full-Stack+Developer;Freelance+Developer"
+                            alt="Typing SVG"
+                            className="max-w-full"
+                        />
+                    </a>
+
                     {/* Elevator Pitch */}
-                    <p className='text-lg text-slate-400 max-w-xl leading-relaxed'>
-                        I build web applications and data systems that actually get used.
-                        I'm looking for opportunities where I can develop meaningful products, 
-                        learn from other engineers, and grow.
+                    <p className='text-lg text-slate-400 max-w-xl leading-relaxed -mt-4'>
+                        I'm looking for internship and early-career software engineering 
+                        opportunities where I can help teams ship clean interfaces, reliable 
+                        workflows, and tools people actually use.
                     </p>
 
                     {/* Call to Action Buttons */}

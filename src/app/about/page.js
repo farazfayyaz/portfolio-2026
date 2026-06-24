@@ -6,7 +6,7 @@ import AboutMe from "../../components/aboutme";
 import PlayerStats from "../../components/playerstats";
 import AFKCar from "../../components/afkcar";
 import ScrollSpidey from "../../components/scrollspidey";
-import { Award, PlayCircle } from 'lucide-react'
+import { Award } from 'lucide-react'
 
 export default function About() {
   return (
@@ -45,9 +45,9 @@ export default function About() {
               <div className="w-full md:w-125 aspect-video bg-slate-900 rounded-xl border border-slate-800 overflow-hidden relative shadow-lg">
                 <iframe 
                   className="w-full h-full absolute top-0 left-0"
-                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" 
+                  src="https://www.youtube.com/embed/GH1AWGWNh8w" 
                   title="PepsiCo Scholarship Feature" 
-                  frameBorder="0" 
+                  style={{ border: 'none' }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen
                 ></iframe>

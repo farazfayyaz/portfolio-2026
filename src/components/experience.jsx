@@ -6,25 +6,25 @@ const experiences = [
     role: "Manager of Software Solutions",
     company: "United Way of Central Indiana",
     period: "Current",
-    description: "Collaborating with CRM, Finance, and Impact teams. Focusing on data analysis, Python, and Salesforce CRM integration to support strategic initiatives.",
+    description: "Working across CRM, finance, and impact teams to support software workflows, data analysis, Salesforce processes, and internal reporting needs. I help translate operational problems into clearer systems and more usable data.",
   },
   {
     role: "Web Design & Web Development Intern",
     company: "Tab Recreation",
     period: "March 2026 - June 2026",
-    description: "Designed, developed, and deployed a live, modernized website for the organization to improve digital presence and user experience.",
+    description: "Designed, built, and launched a modern website for Tab Recreation, balancing stakeholder needs, responsive design, content structure, and deployment.",
   },
   {
     role: "WordPress Developer",
     company: "TechIndiana",
     period: "January 2026 - June 2026",
-    description: "Redesigned the platform and built new components to resolve existing user-facing issues, significantly improving usability and brand alignment.",
+    description: "Improved the TechIndiana website by redesigning pages, building custom components, fixing user-facing issues, and aligning the site more closely with the organization's brand.",
   },
   {
     role: "Freelance Software Developer",
     company: "Self-Employed",
     period: "Ongoing",
-    description: "Designing and developing custom web applications and sites for clients, focusing on responsive design and modern UI/UX principles.",
+    description: "Building websites and small software solutions for clients, with a focus on clear communication, responsive interfaces, maintainable implementation, and practical business outcomes.",
   }
 ];
 

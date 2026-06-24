@@ -70,13 +70,14 @@ export default function AboutMe() {
           <div className="font-mono text-sm leading-relaxed text-slate-300 flex-1">
             <p className="mb-4"><span className="text-emerald-400">$ cat philosophy.md</span></p>
             <p className="mb-4">
-              I believe the best software bridges the gap between complex data architecture and intuitive human experiences.
-              </p>
+              I&apos;m Faraz, a computer science student and software engineer focused on web development, data systems, and practical product building. My path has taken me through client websites, nonprofit software work, Salesforce/data workflows, and team-based engineering projects.
+            </p>
             <p className="mb-4">
-              Currently building my foundation before transferring to DePaul University in Chicago for my M.S. 
-              in Computer Science. Whether I'm managing software solutions for the community or optimizing data 
-              analytics workflows, my goal is always to create tools that empower people.
-              </p>
+              What I enjoy most is the middle ground between people and systems: understanding what someone needs, translating that into technical decisions, and building something clean enough to maintain after launch.
+            </p>
+            <p className="mb-4">
+              Right now, I&apos;m developing my foundation in software engineering, algorithms, data structures, and systems design while continuing to build real projects for organizations and clients. I&apos;m especially interested in internships and roles where I can work with experienced engineers, contribute to production software, and keep improving my technical depth.
+            </p>
             <p className="animate-pulse text-blue-400">_</p>
           </div>
         </div>

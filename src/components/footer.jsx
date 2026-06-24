@@ -34,6 +34,7 @@ export default function Footer() {
               <a href="/about" className="hover:text-white transition-colors w-fit">About</a>
               <a href="/#Projects" className="hover:text-white transition-colors w-fit">Projects</a>
               <a href="/#GuestBoard" className="hover:text-white transition-colors w-fit">Guest Board</a>
+              <a href="/contact" className="hover:text-white transition-colors w-fit">Contact</a>
             </div>
           </div>
 

@@ -31,6 +31,7 @@ export default function Navbar () {
                     <a href='/about' className='hover:text-white transition-colors'>About</a>
                     <a href='#Projects' className='hover:text-white transition-colors'>Projects</a>
                     <a href='#GuestBoard' className='hover:text-white transition-colors'>Guest Board</a>
+                    <a href='/contact' className='hover:text-white transition-colors'>Contact</a>
                     
                     {/* Desktop call to action (Moved inside the desktop flex container) */}
                     <button className='px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-medium transition-all ml-4'>
@@ -56,6 +57,7 @@ export default function Navbar () {
                         <a href='/about' onClick={() => setIsOpen(false)} className='text-base font-medium text-slate-300 hover:text-white transition-colors'>About</a>
                         <a href='/Projects' onClick={() => setIsOpen(false)} className='text-base font-medium text-slate-300 hover:text-white transition-colors'>Projects</a>
                         <a href='/GuestBoard' onClick={() => setIsOpen(false)} className='text-base font-medium text-slate-300 hover:text-white transition-colors'>Guest Board</a>
+                        <a href='/contact' onClick={() => setIsOpen(false)} className='text-base font-medium text-slate-300 hover:text-white transition-colors'>Contact</a>
                         
                         {/* Mobile call to action */}
                         <button onClick={() => setIsOpen(false)} className='w-full px-4 py-3 mt-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-base font-medium transition-all'>

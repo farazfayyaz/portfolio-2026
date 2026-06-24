@@ -6,28 +6,28 @@ import { FaGithub } from 'react-icons/fa';
 const projects = [
   {
     title: "Tab Recreation Website",
-    description: "Designed and developed a brand new website to modernize the brand identity and improve the digital user experience.",
-    techStack: ["Web Development", "UI/UX", "Brand Strategy"], 
-    githubUrl: null, 
+    description: "Designed and developed a modern website for a community organization, improving the site structure, visual presentation, and user experience so visitors could more easily understand programs, events, and ways to get involved.",
+    techStack: ["Web Development", "UI/UX", "Brand Strategy"],
+    githubUrl: null,
     liveUrl: "https://www.tabrecreation.org"
   },
   {
     title: "TechIndiana Website",
-    description: "Redesigned the platform and built new components to resolve existing user-facing issues, significantly improving usability and brand alignment.",
+    description: "Redesigned and rebuilt key parts of the TechIndiana website, resolving usability issues, improving brand consistency, and creating a cleaner editing experience for future content updates.",
     techStack: ["WordPress", "HTML/CSS", "JavaScript", "Custom Components", "Figma"],
     githubUrl: null,
     liveUrl: "https://www.techindiana.org"
   },
   {
     title: "3D Car Racing Simulation",
-    description: "Collaborated with a team to build a racing game. Engineered the map architecture, core driving mechanics, and AI logic for non-playable vehicles.",
-    techStack: ["C++", "Unity", "Object-Oriented Design"], 
+    description: "Collaborated on a 3D racing simulation, contributing to map architecture, driving mechanics, and AI behavior for non-player vehicles. The project strengthened my understanding of object-oriented design, real-time systems, and team-based development.",
+    techStack: ["C++", "Unity", "Object-Oriented Design"],
     githubUrl: "https://github.com/farazfayyaz/raceGame3d",
     liveUrl: null
   },
   {
     title: "War: Terminal Card Game",
-    description: "Developed a fully playable terminal-based 'War' card game, applying advanced data structures and algorithmic concepts.",
+    description: "Built a playable command-line card game in C++, using data structures and algorithmic logic to manage game state, turns, deck behavior, and win conditions.",
     techStack: ["C++", "Data Structures", "Algorithms", "CLI Architecture"],
     githubUrl: "https://github.com/farazfayyaz/CSCI2-Final-Project",
     liveUrl: null
@@ -44,7 +44,7 @@ export default function Projects() {
           <Folder className="text-blue-400" size={28} /> Featured Projects
         </h2>
         <p className="text-slate-400 mt-2 text-sm max-w-2xl">
-          A collection of applications I have built, focusing on scalable architecture, data integration, and intuitive user interfaces.
+          A mix of client work, academic projects, and personal builds across web development, UX, data, and software fundamentals.
         </p>
       </div>
 

@@ -20,7 +20,7 @@ export default function PlayerStats() {
   const charisma = [
     { name: 'Communication', level: 'Lvl. 95' },
     { name: 'Team Leadership', level: 'Lvl. 90' },
-    { name: 'UX/UI', level: 'Lvl. 85' },
+    { name: 'Public Speaking', level: 'Lvl. 85' },
     { name: 'Creativity', level: 'Lvl. 92' }
   ];
 

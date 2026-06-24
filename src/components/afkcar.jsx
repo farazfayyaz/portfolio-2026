@@ -11,8 +11,8 @@ export default function AFKCar() {
     const resetTimer = () => {
       setIsIdle(false);
       clearTimeout(timeoutId);
-      // Waits 15 seconds of inactivity before triggering
-      timeoutId = setTimeout(() => setIsIdle(true), 15000);
+      // Waits 60 seconds of inactivity before triggering
+      timeoutId = setTimeout(() => setIsIdle(true), 60000);
     };
 
     window.addEventListener('mousemove', resetTimer);
