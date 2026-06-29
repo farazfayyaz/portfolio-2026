@@ -22,7 +22,7 @@ export default function Hero () {
                     </h1>
 
                     {/* Typing SVG Subtitle */}
-                    <a href="https://git.io/typing-svg" className="block">
+                    <a href="https://git.io/typing-svg" className="block -ml-px">
                         <img
                             src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=28&duration=2000&pause=1500&color=94A3B8&width=750&height=70&lines=Computer+Science+Student;Software+Engineer;Full-Stack+Developer;Freelance+Developer"
                             alt="Typing SVG"
