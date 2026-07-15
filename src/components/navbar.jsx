@@ -34,9 +34,14 @@ export default function Navbar () {
                     <a href='/contact' className='hover:text-white transition-colors'>Contact</a>
                     
                     {/* Desktop call to action (Moved inside the desktop flex container) */}
-                    <button className='px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-medium transition-all ml-4'>
+                    <a
+                        href='/resume/FarazFayyaz-Resume.pdf'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-medium transition-all ml-4'
+                    >
                         Resume
-                    </button>
+                    </a>
                 </div>
 
                 {/* Mobile Hamburger Toggle Button (Hidden on Desktop) */}
@@ -60,9 +65,15 @@ export default function Navbar () {
                         <a href='/contact' onClick={() => setIsOpen(false)} className='text-base font-medium text-slate-300 hover:text-white transition-colors'>Contact</a>
                         
                         {/* Mobile call to action */}
-                        <button onClick={() => setIsOpen(false)} className='w-full px-4 py-3 mt-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-base font-medium transition-all'>
+                        <a
+                            href='/resume/FarazFayyaz-Resume.pdf'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            onClick={() => setIsOpen(false)}
+                            className='w-full text-center px-4 py-3 mt-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-base font-medium transition-all'
+                        >
                             Resume
-                        </button>
+                        </a>
                     </div>
                 </div>
             )}
