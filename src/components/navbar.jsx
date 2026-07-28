@@ -35,7 +35,7 @@ export default function Navbar () {
                     
                     {/* Desktop call to action (Moved inside the desktop flex container) */}
                     <a
-                        href='/resume/FarazFayyaz-Resume.pdf'
+                        href='/resume/FarazFayyaz.pdf'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-sm font-medium transition-all ml-4'
