@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter-var' })
 
 export const metadata = {
   title: "Faraz's Portfolio Website",
-  description: "Developed using Next.js to display Faraz's work and skills.",
+  description: "Faraz Fayyaz is a Chicago-based software engineer and CS student specializing in full-stack development, data architecture, and machine learning.",
 };
 
 export default function RootLayout({ children }) {
