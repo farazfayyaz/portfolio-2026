@@ -5,6 +5,7 @@ import ScrollSpidey from "../components/scrollspidey";
 import Projects from "../components/projects";
 import Guestbook from "../components/guestbook";
 import AFKCar from "../components/afkcar";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
 
       {/* Footer Section */}
       <Footer/>
+
+      {/* Analytics */}
+      <Analytics/>
       
     </main>
   );
