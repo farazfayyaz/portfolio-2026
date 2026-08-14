@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Press_Start_2P, Inter } from "next/font/google" // import fonts from Google Fonts
+import { Analytics } from '@vercel/analytics/next';
 
 // Configure Press Start 2P font
 const pressStart = Press_Start_2P({ 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
     >
       <body className={`${inter.className} bg-slate-950 text-slate-200`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
